@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- fullscreen -->
+		<link rel="stylesheet" href="css/uma.min.css" />
+		<link rel="stylesheet" href="css/jquery.mobile.icons.min.css" />
+		<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.0.min.css" />
+		
+<script src="js/jquery.min.js"></script> <!--keperluan utk jquery mobile -->
+<script src="js/jquery.mobile.min.js"></script>
+
+</head>
+
+<body>
+<!--Ini page pertama -->
+<div data-role="page"id = "p1">
+	<div data-role="header" data-position= fixed">
+	<h3>LA 1:Penghasilan Skrip</h3>
+	</div>
+	
+	<div role="main" class="ui-content id = "p1">
+	<h3>Hasil Pembelajaran</h3>
+	<p>
+	Di akhir modul ini, pelajar dapat:</p> 
+		<p>1)Merangka skrip cerita berdasarkan format</p>
+		<p>2)Menghasilkan skrip cerita mengikut format yang betul</p>
+		<p>3)Mencetak skrip cerita yang dihasilkan.</p>
+
+	</p>
+	
+	<img src = "images/script.jpg" />
+	<br><h6>Contoh format skrip cerita</h6></br>
+	<a href = "#p2" class = "ui-btn data-transition = "flip"> Ke Page 2 </a>
+	</div>
+	
+	<div data-role="footer" data-position= "fixed">
+	<div data-role="navbar">
+            <ul>
+                <li><a data-icon="grid" class="ui-btn-active ui-state-persist">Utama</a></li>
+                <li><a href="#p2" data-icon="star">Isi</a></li>
+                <li><a href="#p3" data-icon="gear"> Hubungi Kami</a></li>
+            </ul>
+        </div>
+	</div>
+	
+</div>
+
+
+<!--Ini page kedua -->
+<div data-role="page" id= "p2">
+	<div data-role="panel" data-display = "overlay" id="panel1">
+		<h3> Tugasan</h3>
+			<div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+		<h4>SMK PRA PRODUKSI ANIMASI</h4>
+			<ul data-role="listview" data-inset="false">
+			<li><a href = "bab1sub1.html" data-transition = "pop"> Pengenalan</a></li>
+				<li>LA1</li>
+				<li>LA2</li>
+				<li>LA3</li>
+			</ul>
+	</div>
+
+</div>
+	<div data-role="header" data-position = ""fixed">
+	<a href = "#panel1" data-icon = "bars" data-iconpos = "notext"> Panel</a>
+	<h3>LA 2: Penghasilan Storyboard</h3>
+	</div>
+	
+	<div role="main" class="ui-content">
+	<h3>Hasil Pembelajaran </h3>
+	<p>Di akhir modul ini, pelajar dapat:</p> 
+	<ul data-role="listview" data-inset = "true">
+		<li>Lakarkan panel lukisan yang mengandungi posisi karektor, props dan latarbelakang berdasarkan skrip</li>
+		<li>Hasilkan panel lukisan yang mengandungi posisi karektor, props dan latarbelakang.</li>
+		<li>Cetak hasil kerja</li>
+    </ul>
+	
+   <div class = "ui-grid-a ui-responsive" >
+		<div class = "ui-block-a">
+			<img src = "images/storyboard.jpg" width ="250" />
+   </div>
+  <div class = "ui-block-b">
+		<br><h6>Contoh storyboard</h6></br> 
+		</div>	
+</div>
+
+<!-- row kedua -->
+
+<div class = "ui-block-a">
+			<br><h6>Contoh artis yang sedang merakam suara latar berdasarkan skrip animasi yang telah dihasilkan</h6></br> 
+   </div>
+  <div class = "ui-block-b">
+		<img src = "images/voiceover.jpg" width ="250" />
+		</div>	
+		
+
+</div>
+<a href = "#p1" class = "ui-btn" data-transition ="pop" data-direction = "reverse"> Ke Page 1 </a>
+<div data-role="footer" data-position = "fixed">
+	<div data-role="navbar">
+            <ul>
+                <li><a href="#p1" data-icon="grid">Utama</a></li>
+                <li><a data-icon="star" class="ui-btn-active ui-state-persist">Isi</a></li>
+                <li><a href="#p3" data-icon="gear"> Hubungi Kami</a></li>
+            </ul>
+        </div>
+	</div>
+</div>
+<!--Ini page ketiga -->
+<div data-role="page" id= "p3">
+
+	<div data-role="header" data-position = "fixed">
+		<h3>LA 3: Rekabentuk Produksi</h3>
+	</div>
+	
+	<div role="main" class="ui-content">
+	<h3>Hasil Pembelajaran </h3>
+	<p>Di akhir modul ini, pelajar dapat:</p> 
+	<ul data-role="listview" data-inset = "true">
+		<li>Lakarkan rekabentuk persekitaran dalaman dan luaran mengikut konsep cerita</li>
+		<li>Hasilkan lukisan persekitaran berwarna berpandukan lakaran </li>
+		<li>Cetak hasil kerja</li>
+    </ul>
+	</div>
+	<div role="main" class="ui-content">
+	
+	<!-- nak tambah pop up dlm bentuk btn -->
+	<div data-role = "popup" id = "d1">
+		<a href = "Tel: +60122271291" class = "ui-btn ui-btn-inline ui-icon-phone ui-btn-icon-notext ui-corner-all">Telefon</a>
+		<a href = "SMS/Whatsapp://+60122271291" class = "ui-btn ui-btn-inline ui-icon-comment ui-btn-icon-notext ui-corner-all">SMS/Whatsapp</a>
+		<a href = "mailto:uma_leogal@yahoo.com" class = "ui-btn ui-btn-inline ui-icon-mail ui-btn-icon-notext ui-corner-all">E-mail</a>
+	</div>
+	
+
+	
+	<!-- Senaraikan Authors -->
+		<h3>Authors</h3>
+		<ul data-role = "listview" data-inset = "true">
+			<li>
+			<a href = "#d1" data-rel = "popup" data-transition= "slideup"</a>
+			<img src = "images/uma.jpg" width = "150"/>
+			<h3>Umawathy Techanamurthy</h3>
+			<p>Kolej Komuniti Selayang </p>
+			<h3>Lokasi KKSY</h3>
+			<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=kolej+komuniti+selayang&amp;sll=37.0625,-95.677068&amp;sspn=42.174768,79.013672&amp;ie=UTF8&amp;hq=kolej+komuniti+selayang&amp;ll=3.259335,101.661&amp;spn=0.006513,0.009645&amp;t=m&amp;z=14&amp;iwloc=A&amp;cid=7466473615742169189&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=kolej+komuniti+selayang&amp;sll=37.0625,-95.677068&amp;sspn=42.174768,79.013672&amp;ie=UTF8&amp;hq=kolej+komuniti+selayang&amp;ll=3.259335,101.661&amp;spn=0.006513,0.009645&amp;t=m&amp;z=14&amp;iwloc=A&amp;cid=7466473615742169189" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+			</li>
+		
+			<li>
+			<img src = "images/shreya.jpg" width = "150"/>
+			<h3>Baby Shreya</h3>
+			<p>Kolej Komuniti Selayang </p>
+			
+			</li>
+		</ul>
+	</div>
+	<div data-role="footer" data-position = "fixed">
+		<div data-role="navbar">
+            <ul>
+                <li><a href="#p1" data-icon="grid">Utama</a></li>
+                <li><a href="#p2" data-icon="star">Isi</a></li>
+                <li><a data-icon="gear" class="ui-btn-active ui-state-persist">Hubungi Kami</a></li>
+            </ul>
+        </div>
+
+	</div>
+</div>
+
+</body>
+
+
+</html>
+
